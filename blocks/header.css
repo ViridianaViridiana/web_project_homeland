@@ -9,7 +9,6 @@
 .logo__image {
   width: 254.8373565673828;
   height: 68.94309997558594;
-  left: 513px;
 }
 
 .header {
@@ -18,4 +17,11 @@
   align-items: center;
   width: 984px;
   margin: 0 auto;
+}
+
+@media screen and (width<768px) {
+  .logo__image {
+    width: 188px;
+    height: 52px;
+  }
 }
