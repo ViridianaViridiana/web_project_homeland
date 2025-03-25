@@ -19,9 +19,24 @@
   margin: 0 auto;
 }
 
-@media screen and (width<768px) {
+@media screen and (max-width: 1024px) {
+  .logo__image {
+    width: 254px;
+    height: 66px;
+  }
+
+  .header {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 544px) {
   .logo__image {
     width: 188px;
     height: 52px;
+  }
+
+  .header {
+    width: 320px;
   }
 }
