@@ -6,9 +6,9 @@
   margin-top: 34px;
 }
 
-.header__logo_image {
-  width: 254.8373565673828;
-  height: 68.94309997558594;
+.header__logo header__logo_image {
+  width: 254.8373565673828px;
+  height: 68.94309997558594px;
 }
 
 .header {
