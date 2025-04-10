@@ -15,7 +15,6 @@
   font-size: 54px;
   line-height: 58px;
   width: 830px;
-  height: 173px;
   top: 1269px;
   left: 148px;
 }
@@ -26,14 +25,13 @@
   font-size: 24px;
   line-height: 34px;
   width: 738px;
-  height: 135px;
+
   top: 1482.91px;
   left: 148px;
 }
 
 .intro__author {
   width: 732px;
-  height: 33.914398193359375px;
   top: 1628.56px;
   left: 148px;
   font-family: Inter;
@@ -45,7 +43,6 @@
 
 .intro__text {
   width: 722px;
-  height: 181.54176330566406px;
   top: 1694.46px;
   left: 148px;
   font-family: Inter;
@@ -62,8 +59,8 @@
   .intro__title {
     font-family: Inter;
     font-weight: 900;
-    font-size: 75px;
-    line-height: 79px;
+    font-size: 45px;
+    line-height: 49px;
   }
 
   .intro__quote {

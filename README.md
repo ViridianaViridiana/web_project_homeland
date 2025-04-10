@@ -6,6 +6,10 @@
 
 Texto introductorio sobre la ciudad de origen de miembros de la comunidad de TripleTen
 
+# Visitar
+
+[https://viridianaviridiana.github.io/web_project_homeland/](https://viridianaviridiana.github.io/web_project_homeland/)
+
 # Tecnología utilizada
 
 HTML
