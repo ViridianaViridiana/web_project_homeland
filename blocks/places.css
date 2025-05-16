@@ -1,0 +1,108 @@
+.places {
+  width: 100%;
+  height: auto;
+  margin-top: 92px;
+}
+
+.place {
+  display: grid;
+  width: 984px;
+  height: auto;
+  align-items: baseline;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: auto 460px auto;
+  grid-template-areas:
+    "title website"
+    "image text"
+    "button text";
+  margin: auto;
+  padding-bottom: 80px;
+  gap: 40px;
+}
+
+.place__title {
+  grid-area: title;
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  width: 460px;
+  height: 152px;
+  margin: 0 0 20px 0;
+}
+
+.place__image {
+  grid-area: image;
+  width: 460px;
+  height: 460px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  box-shadow: 10px 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+
+.place__image:hover {
+  opacity: 0.5;
+}
+
+.place__website {
+  grid-area: website;
+  width: 456px;
+  height: 67px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.place__url-heading {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-bottom: 8px;
+}
+
+.place__artist {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.place__paragraphs {
+  grid-area: text;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  width: 484px;
+  height: 203px;
+  padding-top: 24px;
+}
+
+.place__link {
+  grid-area: button;
+  width: 289px;
+  height: 48px;
+  justify-self: start;
+  box-shadow: 5px 5px 10px #00000040;
+  color: #ffffff;
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  border-radius: 5px;
+  border: none;
+  transition: filter 0.3s ease, box-shadow 0.3s ease;
+  padding-bottom: 10px;
+  margin-top: 48px;
+}
+
+.place__link:hover {
+  background-image: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
