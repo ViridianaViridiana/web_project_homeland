@@ -33,7 +33,7 @@
   filter: grayscale(100%);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) and (min-width: 768px) {
   .lead__title {
     width: 530px;
     font-size: 75px;
@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 767px) {
   .lead__title {
     width: 228px;
     font-size: 40px;
